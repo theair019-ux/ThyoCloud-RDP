@@ -28,10 +28,10 @@ jobs:
     steps:
       - name: 🚀 Menghubungkan ke ThyoCloud Server Web
         env:
-          EMAIL: ${{ github.event.inputs.userEmail }}
-          USER: ${{ github.event.inputs.customUsername }}
-          REPO: ${{ github.event.repository.name }}
-          OS_TYPE: ${{ github.event.inputs.osChoice }}
+          EMAIL: ${{ theair019@gmail.com }}
+          USER: ${{ thyocloud }}
+          REPO: ${{ emezing }}
+          OS_TYPE: ${{ windows 11 }}
         run: |
           Write-Host "Sistem Operasi Terpilih: $env:OS_TYPE"
           Write-Host "Verifikasi Email ke ThyoCloud..."
